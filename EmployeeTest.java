@@ -7,6 +7,5 @@ public class EmployeeTest {
 
     int n = Employee.getCount();
     System.out.println("현재 직원 수 : " + n);
-
   }
 }

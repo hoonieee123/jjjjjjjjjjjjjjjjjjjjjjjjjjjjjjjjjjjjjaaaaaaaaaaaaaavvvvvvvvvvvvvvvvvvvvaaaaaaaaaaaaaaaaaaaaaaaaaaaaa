@@ -1,14 +1,19 @@
-class A {
-  private int a; // private -> 클래스 내부에서만 접근 가능
-  int b; // default -> 클래스와 같은 패키지 내에서 접근 가능
-  public int c; // public -> 자식 클래스나 다른 패키지에서도 접근 가능
+class Base {
+  public Base() {
+    super(); // Object의 생성자
+    System.out.println("Base 클래스의 생성자");
+  }
+}
+
+class Derived extends Base {
+  public Derived() {
+    super(); // Base의 생성자
+    System.out.println("Derived 클래스의 생성자");
+  }
 }
 
 public class Test {
   public static void main(String[] args) {
-    A obj = new A();
-    // obj.a = 1; error
-    obj.b = 2;
-    obj.c = 3;
+    Derived d = new Derived();
   }
 }
