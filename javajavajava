@@ -1,0 +1,17 @@
+  // List<Person> list, int low, int high
+  // 위 세 개의 매개변수를 통해 Person 객체 리스트와 나이의 범위(low 이상, high 미만)를
+  // 입력으로 받아, 나이 범위의 Person 정도만 출력하는 메서드
+  // printPersonsWithinAgeRange 를 구현
+
+
+  // CheckPerson 인터페이스를 implements 하는 클래스를 하나 생성해서
+  // printPersons 메서드를 호출해라
+  // 단, 이 메서드에 의해 출력되는 Person 객체는 성별이 남자인 객체이어야 한다.
+
+
+  // 위와 똑같이 성별이 남자인 객체만 출력하도록
+  // printPersons 메서드를 호출하되, 무명 클래스를 사용하라.
+  // CheckPerson 인터페이스를 구현하는 무명 클래스를 생성해 printPersons 메서드를 호출한다.
+  // 무명 클래스는 클래스 선언과 객체 생성을 동시에 할 수 있는 방법이다.
+
+공부하자
